@@ -5,6 +5,14 @@
 	"build": { 
 		"context": "..",
 		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-toolsai.datawrangler",
+				"ms-toolsai.jupyter"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
